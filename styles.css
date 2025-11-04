@@ -25,3 +25,11 @@
     text-align: center;
     position: relative;
   }
+
+  .progress-bar-custom {
+  height: 1.2rem;
+  border-radius: 35px;
+  background-color: rgba(0,0,0,0.3);
+  position: relative;
+}
+
