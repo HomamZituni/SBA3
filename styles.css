@@ -1,4 +1,40 @@
-    body {
+    
+    
+CSS
+
+@media (min-width: 375px) and (max-width: 1440px) {
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+  min-height: 100%;
+  background-image: url('images/bg-desktop.png');
+  background-repeat: no-repeat;
+  background-size: cover; 
+  background-position: center; 
+}
+
+html {
+height:100%
+}
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    /* body {
       font-family: 'Raleway', sans-serif;
       min-height: 100vh;
       background: url(images/bg-mobile.png) no-repeat bottom / cover, hsl(229, 57%, 11%);
@@ -23,8 +59,11 @@
     background-color: hsl(228, 56%, 26%);
     color: hsla(0,100%,100%,0.8);
     text-align: center;
-    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
   }
+
 
   .progress-bar-custom {
   height: 1.2rem;
@@ -33,7 +72,17 @@
   position: relative;
 }
 
-
+.progress-bar-custom::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 0.2rem;
+  transform: translateY(-50%);
+  height: 0.9rem;
+  width: 12.5rem;
+  border-radius: 35px;
+  background: linear-gradient(90deg, rgba(255,163,153,1) 15%, rgba(255,77,151,1) 100%);
+}
 
 
 .progress-indicator {
@@ -48,18 +97,22 @@
 }
 
 
+.bottom-container {
+  position: relative;
+  width: 100%;
+  max-width: 24rem; }
+
+
 .data-bubble {
-  position: absolute;
-  top: -2rem;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 12rem;
   background-color: white;
   border-radius: 10px;
-  padding: 1rem 0.5rem;
-  font-weight: 700;
-  text-transform: uppercase;
+  padding: 0.5rem 0.75rem;
+  width: auto; 
+  align-self: flex-end;
 }
+
+
+
 .data-bubble-text {
   display: flex;
   justify-content: center;
@@ -72,4 +125,7 @@
 .data-bubble-text span {
   font-size: 2.5rem;
   color: hsl(229, 57%, 11%);
-}
+}      
+
+*/
+
